@@ -1,6 +1,13 @@
-body {
-  text-align: center
+html, body {
+  overflow-x: hidden;
 }
+
+body {
+  text-align: center;
+  position: relative;
+}
+
+/* MAIN ---------------------------------------*/
 
 #wrap {
   width: 100vw;
@@ -21,12 +28,30 @@ body {
     margin: auto;
   }
 
+@media screen and (max-width: 600px) {
+  #wrap {
+    width: 100%;
+    height: auto;
+  }
+  .fullCard {
+    width: 85%;
+  }
+}
+
 #qWrap {
   font-size: 32px;
   margin: auto;
   padding-top: 30px;
   width: 500px;
   display: flex;
+}
+
+@media screen and (max-width: 600px) {
+  #qWrap {
+    height: auto;
+    width: 85%;
+    font-size: 21px;
+  }
 }
 
 #aWrap {
@@ -48,7 +73,7 @@ body {
   color: white;
 }
 
-/*Social Icons*/
+/*Social Icons ----------------------------------*/
 .fa {
   padding: 20px;
   font-size: 20px;
@@ -73,23 +98,37 @@ body {
   color: white;
 }
 
+/* SIGN-OFF --------------------------------------------*/
+
+/*designed by & contact*/
 #contact-section {
   color: black;
   text-align: center;
+  min-height: 33vh;
 }
 
 .contact-links {
   height: auto;
-  width: 100%;
+  width: 25%;
+  display: inline-block;
+  padding: 20px;
+}
+
+.link-cont {
+  float: left;
+  width: 25%;
 }
 
 .contact-img {
   height: 75px;
   width: 75px;
-  padding: 25px;
 }
 
 #git-logo {
   height: 75px;
-  width: 125px;
+  width: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  .contact-links {width: 100%;}
 }
