@@ -28,30 +28,12 @@ body {
     margin: auto;
   }
 
-@media screen and (max-width: 600px) {
-  #wrap {
-    width: 100%;
-    height: auto;
-  }
-  .fullCard {
-    width: 85%;
-  }
-}
-
 #qWrap {
   font-size: 32px;
   margin: auto;
   padding-top: 30px;
   width: 500px;
   display: flex;
-}
-
-@media screen and (max-width: 600px) {
-  #qWrap {
-    height: auto;
-    width: 85%;
-    font-size: 21px;
-  }
 }
 
 #aWrap {
@@ -71,6 +53,36 @@ body {
   font-size: 20px;
   border-radius: 5px;
   color: white;
+}
+
+@media screen and (max-width: 600px) {
+  #wrap {
+    width: 100%;
+    height: auto;
+  }
+  .fullCard {
+    width: 75%;
+  }
+  #qWrap {
+    height: auto;
+    width: 85%;
+    font-size: 21px;
+  }
+}
+
+@media screen and (max-width: 800px) and (orientation: landscape) {
+  #wrap {
+    width: 100%;
+    height: auto;
+  }
+  .fullCard {
+    width: 75%;
+  }
+  #qWrap {
+    height: auto;
+    width: 85%;
+    font-size: 21px;
+  }
 }
 
 /*Social Icons ----------------------------------*/
@@ -96,6 +108,14 @@ body {
 .fa-twitter {
   background: #55ACEE;
   color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .fa {
+  padding: 10px;
+  font-size: 15px;
+  width: 15px;
+}
 }
 
 /* SIGN-OFF --------------------------------------------*/
@@ -130,5 +150,9 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+  .contact-links {width: 100%;}
+}
+
+@media screen and (max-width: 800px) and (orientation: landscape) {
   .contact-links {width: 100%;}
 }
