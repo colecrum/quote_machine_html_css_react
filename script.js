@@ -13,7 +13,7 @@ const availableQuotes = [
 
 
 const styles = [
-["#4B0082", "Amarante, Gerogia, serif"], ["#8B4A9D", "'Antic Slab', Papyrus, fantasy"], ["#0370B2", "'Aref Ruqaa', Impact, fantasy"], ["#0A8C79", "Calistoga, 'Comic Sans MS', monospace"], ["#35A047", "Chewy, 'Lucida Sans Typewriter', monospace"], ["#FED00D", "'Cinzel Decorative', Rockwell, serif"], ["#F26721", "Coiny, 'Goudy Old Style', serif"], ["#E32925", "'Della Respira', 'Book Antiqua', serif"]];
+["#4B0082", "Amarante, Gerogia, serif"], ["#8B4A9D", "'Antic Slab', Papyrus, fantasy"], ["#0370B2", "Alice, Impact, serif"], ["#0A8C79", "Calistoga, 'Comic Sans MS', monospace"], ["#35A047", "Chewy, 'Lucida Sans Typewriter', monospace"], ["#FED00D", "'Cinzel Decorative', Rockwell, serif"], ["#F26721", "Coiny, 'Goudy Old Style', serif"], ["#E32925", "'Della Respira', 'Book Antiqua', serif"]];
 
 
 const randInd = x => Math.floor(Math.random() * x);
